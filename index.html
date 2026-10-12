@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1a">
+  <meta name="description" content="Explore apps and digital experiences built by GenzLogic — practical tools, thoughtful utilities and playful games.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GenzLogic — Apps for everyday life">
+  <meta property="og:description" content="Discover thoughtful apps and digital experiences built by GenzLogic.">
+  <meta property="og:url" content="https://genzlogic.github.io/">
+  <title>GenzLogic — Apps for everyday life</title>
+  <link rel="canonical" href="https://genzlogic.github.io/">
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/apps.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="./" aria-label="GenzLogic home"><span class="brand-mark">G</span><span>Genz<span class="brand-blue">Logic</span><small>INDEPENDENT APP STUDIO</small></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+        <a href="#apps">Explore apps</a><a href="#about">About</a><a href="#contact">Contact</a>
+        <a class="nav-cta" href="#apps">Discover our work <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> SMALL STUDIO. USEFUL IDEAS.</div>
+          <h1>Apps made to make<br><span class="gradient-text">everyday better.</span></h1>
+          <p class="hero-lede">We build useful digital products that simplify everyday tasks, spark curiosity and make a little more room for what matters.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#apps">Explore our apps <span aria-hidden="true">↘</span></a><a class="button button-quiet" href="#about">Meet GenzLogic</a></div>
+          <div class="hero-note"><span class="tiny-check">✓</span> Thoughtful tools. Playful experiences. Built with care.</div>
+        </div>
+        <div class="hero-art" aria-label="Abstract illustration of app tiles" role="img">
+          <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+          <div class="floating-tile tile-calc"><span class="tile-symbol">＋</span><span class="tile-label">Calculate</span></div>
+          <div class="floating-tile tile-puzzle"><span class="number-grid"><i>2</i><i>4</i><i>8</i><i>1</i></span><span class="tile-label">Play</span></div>
+          <div class="floating-tile tile-home"><span class="home-symbol">⌂</span><span class="tile-label">Organize</span></div>
+          <div class="floating-tile tile-bell"><span class="bell-symbol">♧</span><span class="tile-label">Remember</span></div>
+          <div class="hero-center"><div class="center-logo">G<span>.</span></div><strong>Ideas into apps.</strong><small>MADE BY GENZLOGIC</small></div>
+          <span class="spark spark-a">✳</span><span class="spark spark-b">✦</span><span class="spark spark-c">·</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>INDEPENDENTLY BUILT</span><span class="hero-line"></span><span>DESIGNED FOR REAL LIFE</span><span class="hero-line"></span><span>ALWAYS EVOLVING</span></div>
+    </section>
+
+    <section class="section apps-section" id="apps">
+      <div class="container">
+        <div class="section-heading">
+          <div><div class="eyebrow">THE APP COLLECTION</div><h2>Find your next <span class="gradient-text">favorite.</span></h2><p>Explore the products we’re building, improving and bringing to life.</p></div>
+          <div class="collection-count"><strong id="app-count">04</strong><span>PROJECTS<br>AND COUNTING</span></div>
+        </div>
+        <div class="app-controls">
+          <label class="search-box"><span aria-hidden="true">⌕</span><span class="visually-hidden">Search apps</span><input id="app-search" type="search" placeholder="Search apps..." autocomplete="off"></label>
+          <div class="filter-list" role="group" aria-label="Filter apps by category" id="category-filters">
+            <button class="filter-chip active" data-category="All" aria-pressed="true">All apps</button>
+            <button class="filter-chip" data-category="Productivity" aria-pressed="false">Productivity</button>
+            <button class="filter-chip" data-category="Games" aria-pressed="false">Games</button>
+            <button class="filter-chip" data-category="Business" aria-pressed="false">Business</button>
+            <button class="filter-chip" data-category="Lifestyle" aria-pressed="false">Lifestyle</button>
+          </div>
+        </div>
+        <p class="results-label" id="results-label" aria-live="polite">Showing all projects</p>
+        <div class="app-grid" id="app-grid"></div>
+        <div class="empty-state" id="empty-state" hidden><span>⌕</span><h3>No apps found</h3><p>Try another search or choose a different category.</p><button class="button button-quiet" id="reset-filters">Reset filters</button></div>
+        <div class="catalog-note"><span class="catalog-note-icon">✦</span><p><strong>A work in progress.</strong> New ideas are always in the making. Check back to see what’s next.</p></div>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><div class="about-panel"><span class="about-kicker">OUR APPROACH</span><div class="about-big">Less friction.<br><span class="gradient-text">More possibility.</span></div><div class="about-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="about-panel-footer"><span>IDEA</span><span>DESIGN</span><span>BUILD</span><span>REFINE</span></div></div><div class="about-orb"></div></div>
+        <div class="about-copy"><div class="eyebrow">A LITTLE ABOUT US</div><h2>Small team energy.<br><span class="gradient-text">Big care for details.</span></h2><p>GenzLogic is an independent software studio focused on creating approachable apps for everyday life. From practical utilities to relaxing puzzle games, each project starts with a simple question: can this be more useful, more delightful, or easier to use?</p><p>We believe great software doesn’t need to be complicated. It needs to solve a real problem and respect the person using it.</p><a class="text-link" href="https://github.com/genzlogic" target="_blank" rel="noopener noreferrer">Explore our work on GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact"><div class="container"><div class="contact-card"><div class="contact-glow"></div><div class="contact-content"><div class="eyebrow">LET’S CONNECT</div><h2>Questions, ideas, or feedback?</h2><p>We’d love to hear from you. Visit our GitHub profile to explore projects and get in touch through the contact details published there.</p><a class="button button-primary" href="https://github.com/genzlogic" target="_blank" rel="noopener noreferrer">Visit GenzLogic on GitHub <span aria-hidden="true">↗</span></a></div><div class="contact-decoration" aria-hidden="true"><div class="contact-ring ring-one"></div><div class="contact-ring ring-two"></div><span>G<span>.</span></span></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="./"><span class="brand-mark">G</span><span>Genz<span class="brand-blue">Logic</span><small>INDEPENDENT APP STUDIO</small></span></a><p>Useful ideas, thoughtfully built.</p><div class="footer-links"><a href="#apps">Apps</a><a href="#about">About</a><a href="#contact">Contact</a><a href="https://github.com/genzlogic" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div><div class="container footer-bottom"><span>© <span id="current-year"></span> GenzLogic. All rights reserved.</span><span>Made with care <span class="footer-heart">♥</span></span></div></footer>
+</body>
+</html>

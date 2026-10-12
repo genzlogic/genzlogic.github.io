@@ -1,0 +1,26 @@
+<!-- Reusable reference template. Copy this file to apps/<app-id>/index.html and set data-app-id. -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1a">
+  <meta name="description" content="App details from GenzLogic.">
+  <link rel="canonical" href="https://genzlogic.github.io/apps/genzcalc/">
+  <title>App Name | GenzLogic</title>
+  <link rel="icon" href="../../assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/app-page.css">
+  <script src="../../assets/js/apps.js" defer></script>
+  <script src="../../assets/js/app-page.js" defer></script>
+</head>
+<body data-app-id="genzcalc">
+  <a class="skip-link" href="#app-detail">Skip to content</a>
+  <header class="site-header"><div class="container nav-wrap">
+    <a class="brand" href="../../" aria-label="GenzLogic home"><span class="brand-mark">G</span><span>Genz<span class="brand-blue">Logic</span><small>INDEPENDENT APP STUDIO</small></span></a>
+    <nav class="primary-nav" aria-label="Main navigation"><a href="../../#apps">All apps</a><a href="../../#about">About</a><a href="../../#contact">Contact</a></nav>
+  </div></header>
+  <main id="main"><div id="app-detail" aria-live="polite"></div></main>
+  <footer class="site-footer"><div class="container footer-main"><a class="brand footer-brand" href="../../"><span class="brand-mark">G</span><span>Genz<span class="brand-blue">Logic</span><small>INDEPENDENT APP STUDIO</small></span></a><p>Useful ideas, thoughtfully built.</p><div class="footer-links"><a href="../../#apps">Apps</a><a href="../../#contact">Contact</a><a href="https://github.com/genzlogic" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div><div class="container footer-bottom"><span>© <span id="year"></span> GenzLogic.</span><span>Made with care <span class="footer-heart">♥</span></span></div></footer>
+  <script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
