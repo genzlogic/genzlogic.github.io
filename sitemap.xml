@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://genzlogic.github.io/</loc></url>
-  <url><loc>https://genzlogic.github.io/apps/genzcalc/</loc></url>
-  <url><loc>https://genzlogic.github.io/apps/numblix/</loc></url>
-  <url><loc>https://genzlogic.github.io/apps/mypgrent/</loc></url>
-  <url><loc>https://genzlogic.github.io/apps/birthday-reminder/</loc></url>
+  <url><loc>https://genzlogic.github.io/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/mypgrent/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/scanora/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/bdaybell/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/bill-alarm/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/genzcalc/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/numblix/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://genzlogic.github.io/apps/merge-realms/</loc><lastmod>2026-10-12</lastmod></url>
 </urlset>
