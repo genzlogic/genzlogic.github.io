@@ -157,6 +157,30 @@
       verified: "'Coming soon to iPhone' per genzlogic.github.io/genzcalc (Oct 2026). Add the App Store link and set status to Available at launch."
     },
     {
+      id: "focuslock",
+      name: "FocusLock",
+      aliases: ["Focus Lock", "app blocker", "screen time", "focus", "block apps", "distraction"],
+      category: "Utilities",
+      status: "Coming Soon",
+      platforms: ["iOS"],
+      tagline: "Block distractions. Stay on track.",
+      summary: "Block distracting apps in one tap, on a schedule or after a daily limit, with a shield screen that helps you pause before opening them.",
+      description: "FocusLock helps you take back your attention on iPhone. Pick the apps that pull you away, block them right now or on a schedule, and set daily limits. When you try to open a blocked app, a custom shield screen steps in, and you choose how strict it should be.",
+      features: [
+        { title: "Quick Block", text: "Start a focus session in one tap and block your chosen apps right away." },
+        { title: "Block Groups", text: "Group apps, such as social or games, and block them together." },
+        { title: "Schedules", text: "Block apps automatically at set times, like work hours or bedtime." },
+        { title: "Daily limits", text: "Set how long you want to spend on an app each day." },
+        { title: "Custom shield screen", text: "A calm screen appears when you open a blocked app, with Flexible or Strict friction and optional temporary access." },
+        { title: "Progress", text: "See how your focus is going over time." }
+      ],
+      officialSite: "",
+      privacyUrl: "",
+      supportEmail: "",
+      store: { appStore: "", googlePlay: "" },
+      verified: "Features from the FocusLock build stages. App Store ID 6823885039 (bundle com.mobileappbucket.FocusLock) not live yet: when it is, set store.appStore to https://apps.apple.com/app/id6823885039 and status to Available."
+    },
+    {
       id: "numblix",
       name: "Numblix",
       aliases: ["number puzzle", "sliding puzzle", "15 puzzle"],
