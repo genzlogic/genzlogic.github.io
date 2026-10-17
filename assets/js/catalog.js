@@ -175,7 +175,7 @@
         { title: "Progress", text: "See how your focus is going over time." }
       ],
       officialSite: "",
-      privacyUrl: "",
+      privacyUrl: "https://genzlogic.github.io/privacy/focuslock/",
       supportEmail: "",
       store: { appStore: "", googlePlay: "" },
       verified: "Features from the FocusLock build stages. App Store ID 6823885039 (bundle com.mobileappbucket.FocusLock) not live yet: when it is, set store.appStore to https://apps.apple.com/app/id6823885039 and status to Available."
